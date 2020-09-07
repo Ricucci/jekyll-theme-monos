@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: ricucci
 highlighter: rouge
 svg:
-  optimize: false
+  optimize: true
 # Build settings
 # theme: minima
 highlighter-theme: monokai
