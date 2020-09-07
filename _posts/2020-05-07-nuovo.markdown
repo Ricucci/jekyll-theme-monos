@@ -2,8 +2,11 @@
 layout: post
 title:  "Nuovo"
 date:   2020-05-07 13:49:29 +0900
+
 categories: nuovo
 ---
-{{ page.date | date_to_long_string }}
+<ul>
+  <li> {{ page.date | date_to_long_string }} </li>
+</ul>
 
 Puede ser que he pillado el truco
