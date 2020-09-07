@@ -30,7 +30,7 @@ svg:
   optimize: true
 # Build settings
 # theme: minima
-highlighter-theme: monokai //Color= red
+highlighter-theme: monokai
 date_format: "%Y-%M-%D" //<ul> {{ page.date | date_to_string }} </ul>
 
 plugins:
