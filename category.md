@@ -1,5 +1,5 @@
 ---
-layout: category
-title: Category
-permalink: /category/
+layout: page
+title: About
+permalink: /about/
 ---
