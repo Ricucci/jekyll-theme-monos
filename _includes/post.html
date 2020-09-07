@@ -4,7 +4,7 @@
 			{{ page.title | escape }}
 		</div>
 		<time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-			{%- assign date_format = site.date_forma | default: "%-d/%m/%Y/" -%}
+			{%- assign date_format = site.date_forma | default: "%-d/%m/%Y" -%}
 			{{ page.date | date: date_format }}
 		</time>		
 	</header>
