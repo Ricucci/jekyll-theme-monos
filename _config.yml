@@ -30,8 +30,9 @@ svg:
   optimize: true
 # Build settings
 # theme: minima
-highlighter-theme: monokai
-date_format: "%D-%M-%Y"
+highlighter-theme: monokai //Color= red
+date_format: "%Y-%M-%D" //<ul> {{ page.date | date_to_string }} </ul>
+
 plugins:
   - jekyll-feed
 category_dir: category/
